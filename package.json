@@ -6,7 +6,7 @@
   "scripts": {
     "test": "vitest --coverage",
     "lint": "eslint src",
-    "build": "vite build"
+    "build": "esbuild src/math.js --bundle --format=esm --outfile=dist/math.js"
   },
   "keywords": [],
   "author": "",
