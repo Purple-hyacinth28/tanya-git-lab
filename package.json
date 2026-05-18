@@ -5,8 +5,10 @@
     "build": "esbuild src/math.js --bundle --format=esm --outfile=dist/math.js"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "esbuild": "^0.28.0",
     "eslint": "^10.4.0",
+    "globals": "^17.6.0",
     "vitest": "^4.1.6"
   }
 }
