@@ -1,4 +1,6 @@
-{
+f{
+  "name": "tanya-git",
+  "version": "1.0.0",
   "scripts": {
     "test": "vitest --coverage",
     "lint": "eslint src",
@@ -8,7 +10,6 @@
     "@eslint/js": "^10.0.1",
     "esbuild": "^0.28.0",
     "eslint": "^10.4.0",
-    "globals": "^17.6.0",
     "vitest": "^4.1.6"
   }
 }
